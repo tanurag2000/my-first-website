@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Anurag's</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+a.right {
+  float: right;
+}
+a:hover {
+  background-color:none;
+  color: black;
+  border: 2px;
+border-bottom-color: darkblue;
+}
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 60%; 
+    flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#f44336;
+  padding: 6px;
+}
+@media screen and (max-width: 600px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+img:hover{
+transform:scale(1.1);
+}
+ a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555;
+  }
+  img{
+    height: 200px;
+  }
+  .c:hover{
+    height: 200px;
+    width: 400px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ANURAG TIWARI</h1>
+  <p>A website created by me.</p>
+</div>
+
+<div id="mySidenav" class="sidenav">
+    <a href="#" id="about">About</a>
+    <a href="#" id="blog">Blog</a>
+    <a href="#" id="projects">projects</a>
+    <a href="#" id="contact">Contact</a>
+  </div>
+  
+ 
+<div class="row">
+  <div class="side">
+    <h2>BASKETBALL</h2>
+    <h5>MY LIFELINE</h5>
+      <img src="http://1.bp.blogspot.com/-Z-BN2Q6vQbY/UQAF4asbkWI/AAAAAAAAAgA/w4VM7rJrk80/s1600/Terrence+Williams+hd+wallpapers+2013+01.jpg">
+    
+    <h3></h3>
+    <p></p>
+    <div class="" style="height:60px;">1</div><br>
+    <div class="" style="height:60px;">2</div><br>
+    <div class="" style="height:60px;">3</div>
+  </div>
+  <div class="main">
+    <h2>BASKETBALL</h2>
+    <h5></h5>>
+  <img class="c" src="http://avante.biz/wp-content/uploads/NBA-Players-Wallpapers/NBA-Players-Wallpapers-008.jpg"></img>
+    <p></p>
+    <p></p>
+    <br>
+    <h2>ABOUT ALL STAR</h2>
+    <h5></h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8BeCDJR_HPXtjKzngamLPCe0qotn46hUwH26LsHRRHCIiUnqxQ"></img>
+    <p></p>
+    <p></p>
+  </div>
+</div>
+<div class="main">
+  <h2>BASKETBALL</h2>
+  <h5></h5>>
+<img class="c" src=""></img>
+  <p></p>
+  <p></p>
+  <br>
+  <h2>ABOUT ALL STAR</h2>
+  <h5></h5>
+  <img src=""></img>
+  <p></p>
+  <p></p>
+</div>
+</div>
+<div class="footer">
+<h3>social sites</h3>
+<a href="#" class="fa fa-facebook" ></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+</div>
+
+</body>
+</html>
