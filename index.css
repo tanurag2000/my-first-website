@@ -1,0 +1,267 @@
+* {box-sizing:border-box
+}
+body{
+  margin:0;
+  padding: 0;
+  position: relative;
+  font-size: 0.7em;
+}
+/*Main Page Layout System*/
+
+#containerr{
+  overflow-x:hidden; 
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+  top:-15px;
+  height: 100vh;
+  margin-top: 0;
+  padding: 0;
+  scroll-behavior: smooth ;
+  overflow-y: scroll  !important;
+
+}
+#containerr div#blue,div#yellow{
+  position: relative;
+  margin-top: 0;
+  width: 100vw;
+  height: 140vh;
+
+}
+#containerr div#black{
+  position: relative;
+  margin-top: 0;
+  width: 100vw;
+  height: 40vh;
+}
+h1,h2,h3,h4{
+  color:#ec407a;
+}
+i{color:#ec407a;}
+i:hover{color:#2196f3;}
+.service{
+  font-family: 3em;
+}
+.hide-on-med-and-down li a{
+  position: absolute;
+  top: 1em;
+}
+.hide-on-med-and-down li a:before{
+  position: absolute;
+  content: '';
+  bottom: -2%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #e3f2fd ;
+}#word{
+  text-decoration-color: green;
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #64b5f6;
+}
+
+.mheading{
+  color: #ddd;
+}
+.mspecial{
+  color: pink;
+  text-decoration: underline;
+
+}.mspecial:hover{color:#ef5350;}
+.hide-on-med-and-down li a:after{
+  position: absolute;
+  content: '';
+  bottom: -2%;
+  width: 0%;
+  left: 0;
+  background: #e91e63;
+   transition: .8s;
+  height: 2px;
+}.hide-on-med-and-down li a:hover:after{
+
+  width: 100%;
+}
+#containerr  div#blue{
+   position: relative;
+  width: 100vw;
+  height: 310vh;
+  z-index: -10;
+
+}
+h2{
+  margin-top: 0;
+}
+.central-text h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 5em;
+}
+#red{
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+  top: 0%;
+  z-index: 10;
+  height: 100vh;
+  background-image: url(art-artist-blur-436775.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}#blue{
+  height: 350vh;
+}
+
+.navv{
+  font-size: 4em;
+    z-index: 1000000;
+  background: rgba(0,0,1,0.7);
+  position: fixed;
+  width: 100%;
+  height: 13%;
+
+
+}
+.navv.shrink{
+ 
+  opacity: 1;
+  background: rgba(0,0,1,0.6);
+  display: none.
+}
+.logo{
+  position: absolute;
+  top:40%;
+  left:13%;
+  color:grey;
+  cursor: pointer;
+  font-size:1.2em;
+}
+.logo:hover{color:white;}
+.logo:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 0%;
+  height: 3px;
+  color: white;
+  background: white;
+}.logo:hover:before{width: 100%;color: white; transition: 1s;}
+.logo:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -15%;
+  width: 0%;
+  height: 3px;
+
+  background: white;
+}.logo:hover:after{width: 100%;color: white; transition: 1s;}
+
+
+#mainhead{
+  color:#ddd;
+  line-height: 80px;
+}
+/*Caption text Modifying*/
+.text{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  font-size: 2em;
+}
+/*Achievements background*/
+.AchievementsBack{
+  position: relative;
+  margin-top: 5%;
+  /*background-color:  linear-gradient(to rgba(0,0,0,0.1),rgba(0,0,0,0.5));*/
+  width: 100%;
+  height: 300px;
+ color:#0080FF;
+  
+
+}
+.AchievementsBack:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  right: 0;
+  z-index: -1;
+ background-color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: orange;
+  background-attachment: fixed;
+
+}
+.AchievementsBack i{
+ color:#0080FF;
+ 
+}
+.usable{
+  background:white;
+}
+.card-panel .fa h4{position: relative;}
+.card-panel .fa h4:before{
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    left: 0;
+    width: 150px;
+    height: 100px;
+    background: black;
+
+}
+#word:hover{
+  color: white;
+}
+.interested {
+  width: 100%;
+  height: 400px;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+.qoutes{
+  color:#ff4081;
+}
+
+.interested::after {
+  content: "";
+  background: url(handshake2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+ }
+ .interested button{
+  list-style: none;
+  font-size: 2.4em;
+  color: #ec407a;
+  border: solid 2px #ec407a;
+  background: white;
+  border-radius: 8%;
+  width: 20%;
+  height: 60%;
+ }.interested button:hover{
+  background: #ec407a;
+  color: white;
+
+ }
+ .interested button:nth-of-type(1):hover{background: #2196f3;
+  border-color: #2196f3}
+ /*Review Section*/
+ #black{
+  background: #ddd;
+ }
